@@ -1,3 +1,8 @@
+#include <iostream>
+#include <vector>
+#include "MyRectangle.h"
+using namespace std;
+
 int main()
 {
 	vector <MyRectangle> V;
@@ -67,5 +72,4 @@ int main()
 		cout << "The area for each rectangle is: " << Rec4.CalArea() << endl;
 	
 
-	
 	}
