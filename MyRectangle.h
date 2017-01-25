@@ -1,5 +1,5 @@
 #ifndef MyRectangle
-#define MyRectangle
+#define MyRectangle_H
 
 class MyRectangle
 {
@@ -8,11 +8,12 @@ private:
 	double width;
 
 public:
-	MyRectangle();
+	
 	void setlength(int);
 	int getlength();
 	void setwidth(double);
 	double getwidth();
 	double CalArea();
+	MyRectangle();
 };
 #endif
