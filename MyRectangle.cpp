@@ -7,6 +7,7 @@
 	{
 		length = l;
 	}
+
 	void MyRectangle::setwidth(double w)
 	{
 		width = w;
